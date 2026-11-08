@@ -69,7 +69,7 @@ body.n-fisioterapeuta {
 }
 
 .selo-crefito-topo {
-  font-size: 0.78rem;
+  font-size: .875rem;
   font-weight: 600;
   background: var(--fisio-petroleo);
   color: var(--fisio-branco);
@@ -160,7 +160,7 @@ body.n-fisioterapeuta {
 
 .moldura-foto-abertura-fisio figcaption {
   padding: 10px 16px;
-  font-size: 0.86rem;
+  font-size: .875rem;
   font-weight: 600;
   color: var(--fisio-grafite);
 }
@@ -260,7 +260,7 @@ body.n-fisioterapeuta {
 }
 
 .detalhes-regiao dt {
-  font-size: 0.8rem;
+  font-size: .875rem;
   font-weight: 700;
   color: var(--fisio-petroleo-escuro);
 }
@@ -574,7 +574,7 @@ body.n-fisioterapeuta {
   background: var(--fisio-grafite);
   color: var(--fisio-branco);
   font-weight: 700;
-  font-size: 0.84rem;
+  font-size: .875rem;
   padding: 5px 12px;
   border-radius: 4px;
   margin-bottom: 12px;
@@ -624,7 +624,7 @@ body.n-fisioterapeuta {
 }
 
 .quadro-endereco-fisio dt {
-  font-size: 0.8rem;
+  font-size: .875rem;
   color: var(--fisio-laranja);
   font-weight: 700;
 }
@@ -689,3 +689,5 @@ body.n-fisioterapeuta {
     padding: 22px;
   }
 }
+/* revisão de usabilidade no celular */
+@media (max-width:760px){main :is(button,select,input:not([type=checkbox]):not([type=radio]),.botao){min-height:44px}main label:has(>input[type=radio]),main label:has(>input[type=checkbox]){min-height:40px;display:flex;align-items:center;gap:8px}.nav-fisio{display:none}.selo-crefito-topo{display:none}.barra-topo-fisio{flex-wrap:nowrap;gap:12px}main p:not([class]){font-size:16px}}
